@@ -1,0 +1,45 @@
+body{
+    background-image: url(../imagini\ proiect/imagini.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+  .navbar  {
+    justify-content:flex-start;
+    padding: 20px;
+   display: block;
+   justify-content: space-between;
+  background-color: white;
+    
+
+}
+div > a{
+    padding: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: serif;
+
+}
+div > a:hover{
+    color: white;
+    background-color: black;}
+
+
+#buton1{
+    border-radius: 5px ;
+    margin-right: 0px;
+    padding: 10px 20px;
+    color: black;
+}
+.Home{
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+
