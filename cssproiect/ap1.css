@@ -1,15 +1,12 @@
 body{
-    background-image: url(../imagini\ proiect/imagini.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
+    background-color: rgba(228, 209, 209, 0.405);
 }
   .navbar  {
     justify-content:flex-start;
     padding: 20px;
    display: block;
    justify-content: space-between;
-  background-color: white;
+
     
 
 }
@@ -38,6 +35,174 @@ div > a:hover{
     justify-content: center;
     display: flex;
 }
+.navbar img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+
+}
+.container{
+  display: flex;
+
+}
+#sectiunea1 h2{
+    font-style: italic;
+    font-size: 30px;
+}
+#sectiunea1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sectiunea1 img{
+    margin-bottom: 20px;
+
+}
+#sectiunea1 p {
+    text-align: center;
+    max-width: 600px;
+   font-size: 20px;
+   font-style: italic;
+}
+#sectiunea2 h2{
+    font-size: 20px;
+    font-style: italic;
+}
+
+#sectiunea2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+   
+}
+#sectiunea2 img{
+    margin-bottom: 50px;
+   
+}
+#sectiunea2 p{
+    text-align: center;
+    max-width: 600px;
+    font-size: 20px;
+    font-style: italic;
+}
+#sectiunea3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+#sectiunea3 h2{
+    font-size: 20px;
+    font-style: italic;
+    margin-top: -10px;
+   
+}
+#sectiunea3 p{
+    text-align: center;
+    max-width: 600px;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 5px
+}
+#sectiunea3 img{
+margin-bottom: 30px;
+margin-top: 20px;
+}
+/*am terminat prima pagina*/
+
+/* incep a 2 a pagina despre */
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 20px;
+    padding: 20px;
+    text-decoration: underline;
+}
+.Lista{
+    display: flex;
+    flex-direction: column;
+   padding: 30px;
+   margin: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+#programe li {
+    padding: 5px;
+    font-size: 20px;
+}
+#programe2 li{
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: underline;
+
+
+    
+}
+#programe li b {
+font-size: 15px;
+margin-left: 30px;
+text-decoration: underline;
+text-align: center;
+
+}
+.contact-form {
+    max-width: 600px;
+    margin: 100px auto; /* Centrează formularul pe pagină */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
+
+
 
 
 
